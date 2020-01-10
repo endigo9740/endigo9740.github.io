@@ -1,0 +1,133 @@
+/* Resets */
+* {border: 0; margin: 0; padding: 0;}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+    h1 {font-family: 'Fugaz One', sans-serif; font-size: 100px; margin-bottom: -20px;}
+    h2 {font-family: 'Overpass', sans-serif; font-size: 32px; font-weight: bold;}
+    h3 {font-family: 'Overpass', sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase;}
+    h4 {font-family: 'Overpass', sans-serif; font-size: 18px; font-weight: bold;}
+    @media (max-width: 767px) {
+        h1 {font-size: 50px;}
+        h2 {font-size: 20px;}
+    }
+    @media (max-width: 320px) {
+        h1 {font-size: 40px;}
+        h2 {font-size: 18px;}
+    }
+p {font-size: 16px; line-height: 24px;}
+p+p {margin-top: 25px;}
+a {color: #CCC; text-decoration: none; cursor: pointer;}
+@media (max-width: 480px) {
+    p {font-size: 12px; line-height: 18px;}
+}
+
+/* Classes */
+.wrap {max-width: 1200px; margin: auto;}
+.btn {
+    font-size: 20px; line-height: 20px; text-align: center;
+    background: #141414; color: #CCC; border-radius: 4px;
+    display: inline-block; padding: 10px 20px;
+    cursor: pointer;
+}
+    .btn span+i, .btn i+span {margin-left: 10px;}
+    .btnYellow {background: #fdb413; color: #222;}
+
+/* Globals */
+html, body {height: 100%;}
+body {font-family: 'Overpass', sans-serif; color: #CCC;}
+
+/* === PAGE STYLES === */
+
+#app {width: 100%; height: 100%; overflow-x: hidden; overflow-y: auto;}
+
+/* Header: Jumbotron */
+#jumbotron {
+    color: #222;
+    background: #fdb413;
+    height: 100%; width: 100%;
+    position: relative;
+}
+    #overlay, #particles {
+        position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+        height: 100%; width: 100%;
+    }
+    #overlay {
+        z-index: 1;
+        display: flex; align-items: center; justify-content: center;
+    }
+            #overlay #text {flex: 0 0 auto; text-align: center;}
+            #overlay i {font-size: 50px; line-height: 50px; margin-top: 25px; cursor: pointer;}
+            #overlay img {width: 200px; height: 200px; border: 15px solid #222; border-radius: 100%; margin: 50px 0;}
+            #overlay img:hover {width: 200px; height: 200px; border-radius: 100%;}
+    #particles {z-index: 0}
+
+/* Project View */
+#project {background: #222; color: #CCC; padding: 50px;}
+    #project h2, #project img, #project p {margin-bottom: 25px;}
+    #project header {text-align: center;}
+    #project header img {background: #141414; border-radius: 4px; max-width: 1200px; height: auto;}
+        #video {margin-bottom: 25px; text-align: center;}
+        #gallery {text-align: center;}
+        #gallery li {display: block; list-style: none;}
+        #gallery li img {max-width: 100%; height: auto;}
+        #gallary li+li {margin-top: 25px;}
+@media (max-width: 640px) {
+    #project #video iframe {width: 276px; height: 150px;}
+}
+@media (max-width: 480px) {
+    #project {padding: 25px;}
+    #project header img {width: 220px; height: 220px;}
+}
+
+/* Works View */
+#works {background: #222; color: #CCC; padding: 50px;}
+    #works .wrap {display: flex;}
+    #works h3 {margin-right: 100px;}
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+    }
+        #grid a img {
+            background: #141414; border-radius: 4px; display: block;
+            width: 100%; height: auto;
+            -webkit-filter: grayscale(100%) blur(2px); filter: grayscale(100%) blur(2px); transition: 250ms;
+        }
+        #grid a:hover img, #grid a:active img, #grid a:focus img {
+            -webkit-filter: grayscale(0%) blur(0); filter: grayscale(0%) blur(0);
+        }
+        #grid a h4 {margin: 25px 0;}
+@media (max-width: 768px) {
+    #works {padding: 25px;}
+    #works h3 {display: none;}
+    #grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+    #grid a img {-webkit-filter: none; filter: none;}
+}
+@media (max-width: 400px) {
+    #grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+#project+#works {margin-top: 0;}
+
+/* Resume */
+#resume {background: #141414; text-align: center; padding: 50px 0;}
+
+/* Footer: Contact */
+#contact {background: #222; padding: 50px;}
+    #social {display: flex; justify-content: center;}
+    #social a {flex: 0 0 auto;}
+    #social a:hover, #social a:focus, #social a:active {color: #fdb413;}
+    #social a+a {margin-left: 50px;}
+    #social a i {font-size: 25px; line-height: 25px;}
+@media (max-width: 400px) {
+    #social a+a {margin-left: 25px;}
+}
