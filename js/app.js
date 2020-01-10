@@ -1,6 +1,6 @@
-// VUE APP
+// APPLICATION
 
-// Component
+// Components
 Vue.component('works-grid', {
     data: function () {
         return { works: worksData }
@@ -19,8 +19,9 @@ Vue.component('works-grid', {
             </a>
         </nav>
     `
-})
+});
 
+// App
 var app = new Vue({
     el: '#app',
     data: {
