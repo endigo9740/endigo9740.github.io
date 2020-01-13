@@ -128,7 +128,7 @@ let worksData = [
             video: 'https://www.youtube.com/embed/MsQ7q6vdTOo',
             gallery: [
                 {src: './img/projects/jr_arcade/001.jpg', caption: 'The skeeball device'},
-                {src: './img/projects/jr_arcade/002.png', caption: 'The puttskee device'}
+                {src: './img/projects/jr_arcade/002a.png', caption: 'The puttskee device'}
             ]
         }
     },
