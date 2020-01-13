@@ -11,8 +11,8 @@ let worksData = [
             cover: './img/thumbs/weathercaster.png',
             video: 'https://www.youtube.com/embed/f2yZL5y2A60',
             gallery: [
-                {src: './img/projects/weathercaster/project_weathercaster_desktop.jpg', caption: 'Desktop Site'},
-                {src: './img/projects/weathercaster/project_weathercaster_mobile.jpg', caption: 'Mobile Site'}
+                {src: './img/projects/weathercaster/001.jpg', caption: 'Desktop Site'},
+                {src: './img/projects/weathercaster/002.jpg', caption: 'Mobile Site'}
             ]
         }
     },
@@ -185,8 +185,7 @@ let worksData = [
                 {src: './img/projects/jr_overwolf/002.png', caption: 'Tournament Details'},
                 {src: './img/projects/jr_overwolf/003.png', caption: 'Login View'},
                 {src: './img/projects/jr_overwolf/008.jpg', caption: 'The app At Dreamhack Dallas 2019'},
-                {src: './img/projects/jr_overwolf/009.jpg', caption: 'The leaderboard standsings at Dreamhack'},
-                {src: './img/projects/jr_overwolf/010.png', caption: 'Tournaments at the Microsoft Store in Northpark Mall'}
+                {src: './img/projects/jr_overwolf/009.jpg', caption: 'The leaderboard standsings at Dreamhack'}
             ]
         }
     },
