@@ -1,41 +1,6 @@
 // WORKS
 
 let worksData = [
-    // {
-    //     id: 0,
-    //     name: 'The Source',
-    //     desc: 'A custom adventure map for the video game Minecraft. It provides a unique series of puzzles, challenges, and unique storyline for the player. I created this in my free time and it serves as an excellent example of my commitment and passion for design and development of all kinds.',
-    //     url: 'http://endigodesign.com/minecraft/?map=thesource',
-    //     media: {
-    //         cover: './img/thumbs/thesource.png',
-    //         video: 'http://www.youtube.com/embed/AZYb_ltMy-s',
-    //         gallery: [
-    //             './img/projects/the_source/project_thesource_d001.jpg',
-    //             './img/projects/the_source/project_thesource_d002.jpg',
-    //             './img/projects/the_source/project_thesource_m001.jpg',
-    //             './img/projects/the_source/project_thesource_m002.jpg',
-    //             './img/projects/the_source/project_thesource_m003.jpg',
-    //             './img/projects/the_source/project_thesource_m004.jpg'
-    //         ]
-    //     }
-    // },
-    // {
-    //     id: 1,
-    //     name: 'Titan',
-    //     desc: 'The follow up to my Minecraft adventure map series. I stepped up my game and brought a new level of design, gameplay, and story for players to enjoy. This hobby project took around 6 months to complete and has been played by some of the biggest Lets Play members in the Minecraft community.',
-    //     url: 'http://endigodesign.com/minecraft/',
-    //     media: {
-    //         cover: './img/thumbs/titan.png',
-    //         video: 'http://www.youtube.com/embed/UZ3ZIwTq2ig',
-    //         gallery: [
-    //             './img/projects/titan/project_titan_d001.jpg',
-    //             './img/projects/titan/project_titan_d002.jpg',
-    //             './img/projects/titan/project_titan_m001.jpg',
-    //             './img/projects/titan/project_titan_m002.jpg',
-    //             './img/projects/titan/project_titan_m003.jpg'
-    //         ]
-    //     }
-    // },
     {
         id: 2,
         name: 'WeatherCaster',
@@ -100,7 +65,7 @@ let worksData = [
         name: 'Minirl',
         desc: 'Minirl is procedurally-generated 2D roguelike video game with puzzle elements. This means a unique experience each time you play, and accessible gameplay allowing you to dive right into the fun! This was a six month passion project and my first foray into building an indie video game. I was responsible for everything except audio and music. Both of which were created by the extremely talented Jesse W.D. James, who has gone on to work on featured game projects such as Destiny 2.',
         url: 'http://minirlgame.com/',
-        color: '#006c9b',
+        color: '#5a253f',
         media: {
             cover: './img/thumbs/minirl.png',
             video: 'https://www.youtube.com/embed/34FzHsNFN1g',
@@ -132,10 +97,10 @@ let worksData = [
     },
     {
         id: 7,
-        name: 'Speed League',
-        desc: 'Speed League is an international motorsports league recently founded by (Red Bull) Global Rallycross Championship creator Brian Gale. Building on the Leagues role as a sports organizer for X Games motorsports, and partnered with ESPN to develop a slate of fresh events that appeal to a younger, more energetic and diverse audience. Jackpot Rising took on the challenge of developing a mobile racing video game to help promote and feature tournaments for each event. Unfortunately the project was never completed, but my work on the game UI and several key segments within both Unreal and Unity may be found below.',
+        name: 'Speedleague',
+        desc: 'Speedleague is an international motorsports league recently founded by (Red Bull) Global Rallycross Championship creator Brian Gale. Building on the Leagues role as a sports organizer for X Games motorsports, and partnered with ESPN to develop a slate of fresh events that appeal to a younger, more energetic and diverse audience. Jackpot Rising took on the challenge of developing a mobile racing video game to help promote and feature tournaments for each event. Unfortunately the project was never completed, but my work on the game UI and several key segments within both Unreal and Unity may be found below.',
         url: 'https://www.tixr.com/groups/speedleague',
-        color: '#2c2c2c',
+        color: '#a92a55',
         media: {
             cover: './img/thumbs/speedleague.png',
             video: null,
@@ -199,7 +164,7 @@ let worksData = [
         name: 'JR + Overwolf',
         desc: 'Overwolf provides a middleware solution for tracking data in real time within many AAA game titles, including Fortnite, CS:GO, and League of Legends. They provide third party companies a method to build applications to gather in-game stats and data, presented in overlays within the game (similar to the Steam overlay). I was the project lead for the Jackpot Rising application which collected data for use in competitive tournaments. The application was built with web technology (similar to Electron) and could access data from Overwolf via an integrated API. I managed one contractor to assist with the development of this project. It was built primarily with the use of Vue.js, but we were moving towards utilizing PlayerHQ via a webview that would communicate directly with the app via PostMessage().',
         url: 'https://www.overwolf.com/app/Jackpot_Rising_Inc-Jackpot_Rising',
-        color: '#201c33',
+        color: '#27223e',
         media: {
             cover: './img/thumbs/jr_overwolf.png',
             video: null,
