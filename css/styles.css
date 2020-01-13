@@ -67,14 +67,14 @@ body {font-family: 'Overpass', sans-serif; color: #CCC;}
 
 /* Project View */
 #project {background: #222; color: #CCC; padding: 50px;}
-    #project h2, #project img, #project p {margin-bottom: 25px;}
+    #project header h2, #project header img, #project p {margin-bottom: 25px;}
     #project header {text-align: center;}
     #project header img {background: #141414; border-radius: 4px; max-width: 1200px; height: auto;}
         #video {margin-bottom: 25px; text-align: center;}
         #gallery {text-align: center;}
-        #gallery li {display: block; list-style: none;}
-        #gallery li img {max-width: 100%; height: auto;}
-        #gallary li+li {margin-top: 25px;}
+        #gallery li {display: block; list-style: none; margin-bottom: 25px; text-align: center;}
+        #gallery li img {display: inline-block; max-width: 100%; height: auto;}
+        #gallery li .caption {display: block; font-size: 14px; line-height: 20px; padding: 5px 0 10px;}
 @media (max-width: 640px) {
     #project #video iframe {width: 276px; height: 150px;}
 }

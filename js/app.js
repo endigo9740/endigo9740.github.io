@@ -36,7 +36,10 @@ Vue.component('project', {
                 ></iframe>
             </div>
             <ul id="gallery">
-                <li v-for="img in project.media.gallery"><img v-bind:src="img"></li>
+                <li v-for="img in project.media.gallery">
+                    <img v-bind:src="img.src">
+                    <span class="caption" v-if="img.caption">{{img.caption}}</span>
+                </li>
             </ul>
         </div>
     `

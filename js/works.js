@@ -4,15 +4,15 @@ let worksData = [
     {
         id: 2,
         name: 'WeatherCaster',
-        desc: 'The first nationally available mobile app created and distributed by Belo Corp. It launched to rave reviews on iPad, iPhone, iPod, and Android. I was responsible for the promotional website featured below, as well as several social initatives, as well aas key webview sections within the app itself.',
+        desc: 'The first nationally available mobile app created and distributed by Belo Corp. It launched to rave reviews on iPad, iPhone, iPod and Android. I was responsible for the promotional website, social branding, and several webview sections within the app itself.',
         url: null,
         color: '#70c4e8',
         media: {
             cover: './img/thumbs/weathercaster.png',
             video: 'https://www.youtube.com/embed/f2yZL5y2A60',
             gallery: [
-                './img/projects/weathercaster/project_weathercaster_desktop.jpg',
-                './img/projects/weathercaster/project_weathercaster_mobile.jpg'
+                {src: './img/projects/weathercaster/project_weathercaster_desktop.jpg', caption: 'Desktop Site'},
+                {src: './img/projects/weathercaster/project_weathercaster_mobile.jpg', caption: 'Mobile Site'}
             ]
         }
     },
@@ -26,12 +26,12 @@ let worksData = [
             cover: './img/thumbs/trivie-web.png',
             video: null,
             gallery: [
-                './img/projects/trivie_website/project_trivieweb_d001.jpg',
-                './img/projects/trivie_website/project_trivieweb_d002.jpg',
-                './img/projects/trivie_website/project_trivieweb_d003.jpg',
-                './img/projects/trivie_website/project_trivieweb_d004.jpg',
-                './img/projects/trivie_website/project_trivieweb_d005.jpg',
-                './img/projects/trivie_website/project_trivieweb_m001.jpg',
+                {src: './img/projects/trivie_website/001.jpg', caption: ''},
+                {src: './img/projects/trivie_website/002.jpg', caption: ''},
+                {src: './img/projects/trivie_website/003.jpg', caption: ''},
+                {src: './img/projects/trivie_website/004.jpg', caption: ''},
+                {src: './img/projects/trivie_website/005.jpg', caption: ''},
+                {src: './img/projects/trivie_website/006.jpg', caption: ''}
             ]
         }
     },
@@ -45,75 +45,75 @@ let worksData = [
             cover: './img/thumbs/trivie.png',
             video: null,
             gallery: [
-                './img/projects/trivie_for_business/project_trivie_d001.jpg',
-                './img/projects/trivie_for_business/project_trivie_d002.jpg',
-                './img/projects/trivie_for_business/project_trivie_d003.jpg',
-                './img/projects/trivie_for_business/project_trivie_d004.jpg',
-                './img/projects/trivie_for_business/project_trivie_d005.jpg',
-                './img/projects/trivie_for_business/project_trivie_m001.png',
-                './img/projects/trivie_for_business/project_trivie_m002.png',
-                './img/projects/trivie_for_business/project_trivie_m003.png',
-                './img/projects/trivie_for_business/project_trivie_m004.png',
-                './img/projects/trivie_for_business/project_trivie_m005.png',
-                './img/projects/trivie_for_business/project_trivie_m006.png',
-                './img/projects/trivie_for_business/project_trivie_m007.png'
+                {src: './img/projects/trivie_for_business/001.jpg', caption: 'Dashboard and Active Stats'},
+                {src: './img/projects/trivie_for_business/002.jpg', caption: 'Creating an Assignment'},
+                {src: './img/projects/trivie_for_business/003.jpg', caption: 'Rewards'},
+                {src: './img/projects/trivie_for_business/004.jpg', caption: 'General App Settings'},
+                {src: './img/projects/trivie_for_business/005.jpg', caption: 'App UX Wireframe'},
+                {src: './img/projects/trivie_for_business/006.png', caption: ''},
+                {src: './img/projects/trivie_for_business/007.png', caption: ''},
+                {src: './img/projects/trivie_for_business/008.png', caption: ''},
+                {src: './img/projects/trivie_for_business/009.png', caption: ''},
+                {src: './img/projects/trivie_for_business/010.png', caption: ''},
+                {src: './img/projects/trivie_for_business/011.png', caption: ''},
+                {src: './img/projects/trivie_for_business/012.png', caption: ''}
             ]
         }
     },
     {
         id: 5,
         name: 'Minirl',
-        desc: 'Minirl is procedurally-generated 2D roguelike video game with puzzle elements. This means a unique experience each time you play, and accessible gameplay allowing you to dive right into the fun! This was a six month passion project and my first foray into building an indie video game. I was responsible for everything except audio and music. Both of which were created by the extremely talented Jesse W.D. James, who has gone on to work on featured game projects such as Destiny 2.',
+        desc: 'A 2D roguelike video game with puzzle elements. Procedurally generated levels ensure a unique experience each time you play. Accessible gameplay allows you to dive right into the fun! This was a six month passion project and my first foray into building an indie video game. I was responsible for everything except audio and music.',
         url: 'http://minirlgame.com/',
         color: '#5a253f',
         media: {
             cover: './img/thumbs/minirl.png',
             video: 'https://www.youtube.com/embed/34FzHsNFN1g',
             gallery: [
-                './img/projects/minirl/001.png',
-                './img/projects/minirl/002.png',
-                './img/projects/minirl/003.png',
-                './img/projects/minirl/004.png',
-                './img/projects/minirl/005.png',
-                './img/projects/minirl/006.png',
+                {src: './img/projects/minirl/001.png', caption: 'The promotional website'},
+                {src: './img/projects/minirl/002.png', caption: 'Grass World'},
+                {src: './img/projects/minirl/003.png', caption: 'Cave World'},
+                {src: './img/projects/minirl/004.png', caption: 'Snow World'},
+                {src: './img/projects/minirl/005.png', caption: 'Space World'},
+                {src: './img/projects/minirl/006.png', caption: 'Fire World'}
             ]
         }
     },
     {
         id: 6,
         name: 'Jackpot Rising',
-        desc: 'Jackpot Rising is a software solution that may be integrated into games of all types. It enables users to compete against each other in progressive eSports tournaments for real money, prizes, or digital goods. During my three years at Jackpot Rising I handled the overwhelming majority of the company’s branding, UX, product design (both digital and physical), and development of several key projects and initiatives. Many of which are listed separately on this portfolio site. The company website, logo, and other branding materials are featured below.',
+        desc: 'Jackpot Rising is a software solution integrates into games of all types. It enables users to compete against each other in progressive eSports-esque tournaments for real money, prizes, and/or digital goods. During my three years at Jackpot Rising I handled the overwhelming majority of the company’s branding, UX, product design, as well as heading several key projects and initiatives. Many of which are listed individually on this site.',
         url: 'https://www.jackpotrising.com/',
         color: '#1d2d3f',
         media: {
             cover: './img/thumbs/jr.png',
             video: 'https://www.youtube.com/embed/0ah2zZQ6xHc',
             gallery: [
-                './img/projects/jr_brand/001.png',
-                './img/projects/jr_brand/002.png',
-                './img/projects/jr_brand/006.jpg'
+                {src: './img/projects/jr_brand/001.png', caption: 'The comapny website'},
+                {src: './img/projects/jr_brand/002.png', caption: 'The Jackpot Rising logo and brand colors'},
+                {src: './img/projects/jr_brand/006.jpg', caption: 'Branded shirts for staff'}
             ]
         }
     },
     {
         id: 7,
         name: 'Speedleague',
-        desc: 'Speedleague is an international motorsports league recently founded by (Red Bull) Global Rallycross Championship creator Brian Gale. Building on the Leagues role as a sports organizer for X Games motorsports, and partnered with ESPN to develop a slate of fresh events that appeal to a younger, more energetic and diverse audience. Jackpot Rising took on the challenge of developing a mobile racing video game to help promote and feature tournaments for each event. Unfortunately the project was never completed, but my work on the game UI and several key segments within both Unreal and Unity may be found below.',
+        desc: 'Speedleague is an international motorsports league founded by Red Bull’s Global Rallycross Championship creator Brian Gale. Building on the Leagues role as a sports organizer for X Games motorsports and partnered with ESPN. Jackpot Rising took on the challenge of developing a mobile racing video game to help promote and run tournaments at a variety of exotic locations, including The Bahamas, St. Petersburg, and Dubai. Unfortunately X Games ran into political and budget issues and never officially started. However, my work on the game UI and several key game scenes within both Unreal and Unity are shown.',
         url: 'https://www.tixr.com/groups/speedleague',
         color: '#a92a55',
         media: {
             cover: './img/thumbs/speedleague.png',
             video: null,
             gallery: [
-                './img/projects/speedleague/001.png',
-                './img/projects/speedleague/002.png',
-                './img/projects/speedleague/003.png',
-                './img/projects/speedleague/004.png',
-                './img/projects/speedleague/005.png',
-                './img/projects/speedleague/006.png',
-                './img/projects/speedleague/007.png',
-                './img/projects/speedleague/008.png',
-                './img/projects/speedleague/009.png',
+                {src: './img/projects/speedleague/001.png', caption: 'The in-game overlay UI'},
+                {src: './img/projects/speedleague/002.png', caption: 'Main Menu'},
+                {src: './img/projects/speedleague/003.png', caption: 'Track Selection'},
+                {src: './img/projects/speedleague/004.png', caption: 'Vehical selection and customization'},
+                {src: './img/projects/speedleague/005.png', caption: 'An tntro cinematic for the Tucson map'},
+                {src: './img/projects/speedleague/006.png', caption: 'Pause Menu'},
+                {src: './img/projects/speedleague/007.png', caption: 'Race Results'},
+                {src: './img/projects/speedleague/008.png', caption: 'Loading Screen'},
+                {src: './img/projects/speedleague/009.png', caption: 'Game Settings'},
             ]
         }
     },
@@ -127,53 +127,66 @@ let worksData = [
             cover: './img/thumbs/jr_arcade.png',
             video: 'https://www.youtube.com/embed/MsQ7q6vdTOo',
             gallery: [
-                './img/projects/jr_arcade/001.jpg'
+                {src: './img/projects/jr_arcade/001.jpg', caption: 'The skeeball device'},
+                {src: './img/projects/jr_arcade/002.png', caption: 'The puttskee device'}
             ]
         }
     },
     {
         id: 9,
         name: 'PlayerHQ',
-        desc: 'The user-facing companion application for the Jackpot Rising platform. This is the central HUB that allowed users to view tournaments, leaderboards, games, socialize, and manage their account and funds. The app was spearheaded by myself as a way to combine both the company’s web and mobile applications. It utilized a wide variety of interesting tech, including Angular 8+, PWA and service worker support, as well as a hybrid mobile application for iOS and Android. It included a web-based WebRTC QR scanner for connecting to Jackpot Rising’s arcade devices and more, using websockets to communicate in real time between the app, server, and device.',
+        desc: 'The user-facing companion app for the Jackpot Rising platform. This acts as the central HUB for tournaments, leaderboards, games, social features, and allows players to manage their account and funds. The app was spearheaded by myself as a way to combine both the company’s web and mobile applications. It utilizes Angular 8+, includes PWA and service worker support, and was developed from the ground up as a hybrid mobile application for iOS and Android. It included a web-based QR scanner for syncing with Jackpot Rising’s arcade devices, using websockets to communicate in real time between the app, server, and device.',
         url: 'https://playerhq.jackpotrising.com',
         color: '#dc334a',
         media: {
             cover: './img/thumbs/jr_playerhq.png',
             video: null,
             gallery: [
-                './img/projects/jr_playerhq/001.png'
+                {src: './img/projects/jr_playerhq/001.png', caption: 'Active list of tournaments'},
+                {src: './img/projects/jr_playerhq/001a.png', caption: 'Tournament details and leaderboard'},
+                {src: './img/projects/jr_playerhq/002.png', caption: 'List of available games'},
+                {src: './img/projects/jr_playerhq/002a.png', caption: 'The game details view'},
+                {src: './img/projects/jr_playerhq/004.png', caption: 'Support View'},
+                {src: './img/projects/jr_playerhq/005.png', caption: 'Account and fund management'},
+                {src: './img/projects/jr_playerhq/006.png', caption: 'Early mockup of the PlayerHQ app'}
             ]
         }
     },
     {
         id: 10,
         name: 'Homebase',
-        desc: 'The client-facing application for the Jackpot Rising platform. This served as the primary tool for generating content such as tournaments, game metadata, user moderation, and much more. It featured a roles and permissions sytem for large scale corporations. This utilized a wide variety of interesting tech, including Angular 8+, Angular Material UI library, as well as PWA and service worker support. I spearheaded this product as a way to combine separate client and internal tooling in a single and much more efficient application.',
+        desc: 'The client-facing app for the Jackpot Rising platform. This serves as the primary tool for generating content, including: tournaments, game metadata, user moderation, and much more. It includes a roles and permissions system for large scale corporations. The app was developed with Angular 8+, Angular Material UI library, and includes full PWA and service worker support. I developed this to combine separate client and internal tooling in a single and much more efficient application.',
         url: 'https://homebase.jackpotrising.com',
         color: '#dc334a',
         media: {
             cover: './img/thumbs/jr_homebase.png',
             video: null,
             gallery: [
-                './img/projects/jr_homebase/001.png',
+                {src: './img/projects/jr_homebase/001.png', caption: 'Login View'},
+                {src: './img/projects/jr_homebase/002.png', caption: 'Deashboard and Active Stats'},
+                {src: './img/projects/jr_homebase/003.png', caption: 'Organizations and Properties'},
+                {src: './img/projects/jr_homebase/004.png', caption: 'Tournaments List'},
+                {src: './img/projects/jr_homebase/005.png', caption: 'Tournament Form'},
+                {src: './img/projects/jr_homebase/006.png', caption: 'A sample of UI components from the mockup'}
             ]
         }
     },
     {
         id: 11,
         name: 'JR + Overwolf',
-        desc: 'Overwolf provides a middleware solution for tracking data in real time within many AAA game titles, including Fortnite, CS:GO, and League of Legends. They provide third party companies a method to build applications to gather in-game stats and data, presented in overlays within the game (similar to the Steam overlay). I was the project lead for the Jackpot Rising application which collected data for use in competitive tournaments. The application was built with web technology (similar to Electron) and could access data from Overwolf via an integrated API. I managed one contractor to assist with the development of this project. It was built primarily with the use of Vue.js, but we were moving towards utilizing PlayerHQ via a webview that would communicate directly with the app via PostMessage().',
+        desc: 'Overwolf provides a middleware solution for tracking data in real time within many triple-A PC game titles, including Fortnite, CS:GO, League of Legends, and more. Apps for the Overwolf platform may gathering and utilizing this data, presented via overlays directly in the game (similar to Steam). I was the project lead for the Jackpot Rising application which collected data for use in competitive tournaments. The application was built with web technology (similar to Electron) and could access data from Overwolf via an integrated API. I managed one contractor to assist with the development of this project. This powered select tournaments at the Dreamhack Dallas 2019.',
         url: 'https://www.overwolf.com/app/Jackpot_Rising_Inc-Jackpot_Rising',
         color: '#27223e',
         media: {
             cover: './img/thumbs/jr_overwolf.png',
             video: null,
             gallery: [
-                './img/projects/jr_overwolf/000.png',
-                './img/projects/jr_overwolf/001.jpg',
-                './img/projects/jr_overwolf/002.jpg',
-                './img/projects/jr_overwolf/003.jpg',
-                './img/projects/jr_overwolf/004.jpg'
+                {src: './img/projects/jr_overwolf/001.png', caption: 'Tournament List'},
+                {src: './img/projects/jr_overwolf/002.png', caption: 'Tournament Details'},
+                {src: './img/projects/jr_overwolf/003.png', caption: 'Login View'},
+                {src: './img/projects/jr_overwolf/008.jpg', caption: 'The app At Dreamhack Dallas 2019'},
+                {src: './img/projects/jr_overwolf/009.jpg', caption: 'The leaderboard standsings at Dreamhack'},
+                {src: './img/projects/jr_overwolf/010.png', caption: 'Tournaments at the Microsoft Store in Northpark Mall'}
             ]
         }
     },
