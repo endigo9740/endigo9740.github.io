@@ -48,7 +48,7 @@ body {font-family: 'Overpass', sans-serif; color: #CCC;}
     height: 100%; width: 100%;
     position: relative;
 }
-    #overlay, #particles {
+    #overlay, #vanta {
         position: absolute; top: 0; left: 0; right: 0; bottom: 0;
         height: 100%; width: 100%;
     }
@@ -58,9 +58,9 @@ body {font-family: 'Overpass', sans-serif; color: #CCC;}
     }
             #overlay #text {flex: 0 0 auto; text-align: center;}
             #overlay i {font-size: 50px; line-height: 50px; margin-top: 25px; cursor: pointer;}
-            #overlay img {width: 200px; height: 200px; border: 15px solid #222; border-radius: 100%; margin: 50px 0;}
+            #overlay img {width: 200px; height: 200px; border: 15px solid #222; border-radius: 100%;}
             #overlay img:hover {width: 200px; height: 200px; border-radius: 100%;}
-    #particles {z-index: 0}
+    #vanta {z-index: 0}
 
 /* Project View */
 #project {background: #222; color: #CCC; padding: 50px;}

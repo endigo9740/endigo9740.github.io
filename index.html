@@ -16,48 +16,19 @@
         <header id="jumbotron"> 
             <div id="overlay">
                 <div id="text">
-                    <h1>Hi, I'm Chris</h1>
                     <img src="img/me.jpg" alt="Chris">
+                    <h1>Hi, I'm Chris</h1>
                     <h2>Developer, designer, UX, and more.</h2>
-                    <i class="far fa-arrow-alt-circle-down" title="See my work below." v-on:click="alignToProjects('smooth')"></i>
+                    <i class="far fa-arrow-alt-circle-down" v-on:click="alignToProjects('smooth')"></i>
                 </div>
             </div>
-            <canvas id="particles"></canvas>
+            <div id="vanta"></div>
         </header>
         <!-- Scroll Target -->
         <section id="top"></section>
         <!-- Selected Project -->
         <section id="project" v-if="project">
-            <div class="wrap">
-                <header>
-                    <p>
-                        <a class="btn" v-on:click="closeProject">
-                            <i class="fal fa-long-arrow-left"></i><span>Go <strong>Back</strong></span>
-                        </a>
-                    </p>
-                    <h2>{{project.name}}</h2>
-                    <img v-bind:src="project.media.cover" v-bind:style="{ backgroundColor: project.color }">
-                    <p v-if="project.url" style="margin-top: -50px">
-                        <a class="btn btnYellow" v-bind:href="project.url" target="_blank">
-                            <span>Launch <strong>This</strong></span>
-                        </a>
-                    </p>
-                </header>
-                <p>{{project.desc}}</p>
-                <div id="video" v-if="project.media.video">
-                    <iframe
-                        width="560"
-                        height="315"
-                        v-bind:src="project.media.video"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
-                </div>
-                <ul id="gallery">
-                    <li v-for="img in project.media.gallery"><img v-bind:src="img"></li>
-                </ul>
-            </div>
+            <project v-bind:project="project"></project>
         </section>
         <!-- Works List -->
         <section id="works">
@@ -96,12 +67,28 @@
         </footer>
     </div>
 
-    <!-- Scripts -->
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a70fc06123.js" crossorigin="anonymous"></script>
+
+    <!-- Vue App -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="js/works.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/particles.js"></script>
+
+    <!-- WebGL Feature -->
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.min.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#vanta",
+            backgroundColor: '#fdb413',
+            color: '#222222',
+            points: 10,
+            maxDistance: 20,
+            spacing: 17,
+            showDots: true
+        });
+    </script>
 </body>
 </html>
