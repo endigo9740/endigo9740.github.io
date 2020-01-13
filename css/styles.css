@@ -3,7 +3,7 @@
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {font-weight: normal;}
-    h1 {font-family: 'Fugaz One', sans-serif; font-size: 100px; margin-bottom: -20px;}
+    h1 {font-family: 'Fugaz One', sans-serif; font-size: 100px; margin-bottom: -10px;}
     h2 {font-family: 'Overpass', sans-serif; font-size: 32px; font-weight: bold;}
     h3 {font-family: 'Overpass', sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase;}
     h4 {font-family: 'Overpass', sans-serif; font-size: 18px; font-weight: bold;}
@@ -61,6 +61,9 @@ body {font-family: 'Overpass', sans-serif; color: #CCC;}
             #overlay img {width: 200px; height: 200px; border: 15px solid #222; border-radius: 100%;}
             #overlay img:hover {width: 200px; height: 200px; border-radius: 100%;}
     #vanta {z-index: 0}
+@media (max-width: 767px) {
+    #overlay img {width: 100px; height: 100px;}
+}
 
 /* Project View */
 #project {background: #222; color: #CCC; padding: 50px;}
