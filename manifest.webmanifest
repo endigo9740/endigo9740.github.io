@@ -1,9 +1,0 @@
-{
-    "name": "The portfolio of Chris Simmons",
-    "short_name": "Endigo Design",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#fdb413",
-    "description": "he portfolio of Chris Simmons. Developer, designer, UX, and more.",
-    "orientation": "portrait"
-}
