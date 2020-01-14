@@ -111,7 +111,7 @@ body {font-family: 'Overpass', sans-serif; color: #CCC;}
         grid-column-gap: 25px;
         grid-row-gap: 25px;
     }
-    #grid a img {-webkit-filter: none; filter: none;}
+    #grid .item img {-webkit-filter: none; filter: none;}
 }
 @media (max-width: 400px) {
     #grid {
