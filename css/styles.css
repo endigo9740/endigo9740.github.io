@@ -94,15 +94,15 @@ body {font-family: 'Overpass', sans-serif; color: #CCC;}
         grid-column-gap: 50px;
         grid-row-gap: 50px;
     }
-        #grid a img {
+        #grid .item img {
             background: #141414; border-radius: 4px; display: block;
             width: 100%; height: auto;
             -webkit-filter: grayscale(100%) blur(2px); filter: grayscale(100%) blur(2px); transition: 250ms;
         }
-        #grid a:hover img, #grid a:active img, #grid a:focus img {
+        #grid .item:hover img, #grid .item:active img, #grid .item:focus img {
             -webkit-filter: grayscale(0%) blur(0); filter: grayscale(0%) blur(0);
         }
-        #grid a h4 {margin: 25px 0;}
+        #grid .item h4 {margin: 25px 0;}
 @media (max-width: 768px) {
     #works {padding: 25px;}
     #works h3 {display: none;}

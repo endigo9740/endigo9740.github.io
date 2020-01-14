@@ -12,12 +12,12 @@ Vue.component('project', {
         <div class="wrap">
             <header>
                 <p>
-                    <a class="btn" v-on:click="closeProject">
+                    <span class="btn" v-on:click="closeProject">
                         <i class="fal fa-long-arrow-left"></i><span>Go <strong>Back</strong></span>
-                    </a>
+                    </span>
                 </p>
                 <h2>{{project.name}}</h2>
-                <img v-bind:src="project.media.cover" v-bind:style="{ backgroundColor: project.color }">
+                <img v-bind:src="project.media.cover" v-bind:style="{ backgroundColor: project.color }" alt="thumbnail">
                 <p v-if="project.url" style="margin-top: -50px">
                     <a class="btn btnYellow" v-bind:href="project.url" target="_blank">
                         <span>Launch <strong>This</strong></span>
@@ -37,7 +37,7 @@ Vue.component('project', {
             </div>
             <ul id="gallery">
                 <li v-for="img in project.media.gallery">
-                    <img v-bind:src="img.src">
+                    <img v-bind:src="img.src" alt="Gallery Image">
                     <span class="caption" v-if="img.caption">{{img.caption}}</span>
                 </li>
             </ul>
@@ -57,11 +57,11 @@ Vue.component('works-grid', {
     },
     template: `
         <nav id="grid">
-            <a v-for="w in works" v-on:click="selectProject(w.id)" target="_blank">
-                <img v-bind:src="w.media.cover" v-bind:style="{ backgroundColor: w.color }">
+            <div class="item" v-for="w in works" v-on:click="selectProject(w.id)" target="_blank">
+                <img v-bind:src="w.media.cover" v-bind:style="{ backgroundColor: w.color }" alt="thumbnail">
                 <h4>{{w.name}}</h4>
                 <p>{{w.desc.substring(0,120)+".."}}</p>
-            </a>
+            </div>
         </nav>
     `
 });
