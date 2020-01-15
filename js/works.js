@@ -19,7 +19,7 @@ let worksData = [
     {
         id: 3,
         name: 'Trivie',
-        desc: 'Trivie uses cognitive science, adaptive learning, and gamification to help employees remember training. During my time at the company I headed design and implementation of the Trivie brand and company website. This site provides information about the company as well as a portal for signing up for various Trivie for Business SaaS plans. Please note the images below represent the version of the site and application during my time with Trivie.',
+        desc: 'Trivie uses cognitive science, adaptive learning, and gamification to help employees retain knowledge and training. During my time at the company I headed design and implementation of the Trivie brand and company website. This site provides information about the company as well as a portal for signing up for various Trivie for Business SaaS plans. Please note the images below represent the version of the site and application during my time with Trivie.',
         url: 'http://www.trivie.com',
         color: '#5b4c9f',
         media: {
@@ -38,7 +38,7 @@ let worksData = [
     {
         id: 4,
         name: 'Trivie for Business',
-        desc: 'This is the flagship SaaS-based hybrid mobile and web application for Trivie. Key client include Subway, American Heart Association, and Goodwill. The product focuses on learning and retention for training material within the enterprise space. I was responsible for planning, UX, design, and development of the frontend client for this application. The app was integrated into a hybrid mobile application for both iOS and Android.',
+        desc: 'This is the flagship SaaS-based hybrid mobile and web application for Trivie. Noteworthy clients include Subway, American Heart Association, and Goodwill. The product focuses on learning and retention for HR and training material within the enterprise space. I was responsible for planning, UX, design, and development of the frontend client for this application. The app was also integrated into a hybrid mobile application for both iOS and Android.',
         url: 'http://www.trivie.com',
         color: '#5b4c9f',
         media: {
@@ -82,7 +82,7 @@ let worksData = [
     {
         id: 6,
         name: 'Jackpot Rising',
-        desc: 'Jackpot Rising is a software solution integrates into games of all types. It enables users to compete against each other in progressive eSports-esque tournaments for real money, prizes, and/or digital goods. During my three years at Jackpot Rising I handled the overwhelming majority of the company’s branding, UX, product design, as well as heading several key projects and initiatives. Many of which are listed individually on this site.',
+        desc: 'Jackpot Rising is a software solution that integrates into games of all types. It enables users to compete against each other in progressive eSports-esque tournaments for real money, prizes, and/or digital goods. During my three years at Jackpot Rising I handled the overwhelming majority of the company’s branding, UX, product design, as well as heading several key projects and initiatives. Many of which are listed individually on this site.',
         url: 'https://www.jackpotrising.com/',
         color: '#1d2d3f',
         media: {
@@ -98,7 +98,7 @@ let worksData = [
     {
         id: 7,
         name: 'Speedleague',
-        desc: 'Speedleague is an international motorsports league founded by Red Bull’s Global Rallycross Championship creator Brian Gale. Building on the Leagues role as a sports organizer for X Games motorsports and partnered with ESPN. Jackpot Rising took on the challenge of developing a mobile racing video game to help promote and run tournaments at a variety of exotic locations, including The Bahamas, St. Petersburg, and Dubai. Unfortunately X Games ran into political and budget issues and never officially started. However, my work on the game UI and several key game scenes within both Unreal and Unity are shown.',
+        desc: 'Speedleague is an international motorsports league  by Red Bull’s Global Rallycross Championship creator Brian Gale. Building on the League\'s role as a sports organizer for X Games motorsports and partnered with ESPN. Jackpot Rising took on the challenge of developing a mobile racing video game to help promote and run tournaments at each race, featured at: The Bahamas, St. Petersburg, Dubai, and more. My contribution to game UI and several key scenes within both Unreal and Unity are featured below.',
         url: 'https://www.tixr.com/groups/speedleague',
         color: '#a92a55',
         media: {
@@ -120,7 +120,7 @@ let worksData = [
     {
         id: 8,
         name: 'Jackpot Rising Arcade',
-        desc: 'During my time at Jackpot Rising one of our key verticals included integrating our tournament platform with real world games. This included skeeball, basketball, mini-golf. Working towards large scale integrations with companies such as Top Golf. I designing and implementing video displays on each Raspberry Pi 3 powered unit. As well as assisting with the branding for each device. Some of which have been featured at large charity events, such as the Cattle Baron’s Ball in Dallas, Texas.',
+        desc: 'During my time at Jackpot Rising one of our key verticals included integrating our tournament platform with real world games. This included skeeball, basketball, and mini-golf. Working towards large scale integrations with companies such as Top Golf. I designing and implementing video displays on each Raspberry Pi 3 powered unit. As well as assisting with branding, UX, and UX for each device. Some of which have been featured at large charity events such as the Cattle Baron’s Ball in Dallas, Texas.',
         url: 'https://www.youtube.com/embed/MsQ7q6vdTOo',
         color: '#dc334a',
         media: {
@@ -135,7 +135,7 @@ let worksData = [
     {
         id: 9,
         name: 'PlayerHQ',
-        desc: 'The user-facing companion app for the Jackpot Rising platform. This acts as the central HUB for tournaments, leaderboards, games, social features, and allows players to manage their account and funds. The app was spearheaded by myself as a way to combine both the company’s web and mobile applications. It utilizes Angular 8+, includes PWA and service worker support, and was developed from the ground up as a hybrid mobile application for iOS and Android. It included a web-based QR scanner for syncing with Jackpot Rising’s arcade devices, using websockets to communicate in real time between the app, server, and device.',
+        desc: 'The user-facing companion app for the Jackpot Rising platform. This acts as the central HUB for tournaments, leaderboards, games, social features, and allows players to manage their account and funds. The app was spearheaded by myself as a way to combine both the company’s web and mobile clients. It utilizes Angular 8+, includes PWA and service worker support, and was developed from the ground up as a hybrid mobile application for iOS and Android. It included a web-based QR scanner for syncing with Jackpot Rising’s arcade devices, using websockets to communicate in real time between the app, server, and device.',
         url: 'https://playerhq.jackpotrising.com',
         color: '#dc334a',
         media: {
@@ -155,7 +155,7 @@ let worksData = [
     {
         id: 10,
         name: 'Homebase',
-        desc: 'The client-facing app for the Jackpot Rising platform. This serves as the primary tool for generating content, including: tournaments, game metadata, user moderation, and much more. It includes a roles and permissions system for large scale corporations. The app was developed with Angular 8+, Angular Material UI library, and includes full PWA and service worker support. I developed this to combine separate client and internal tooling in a single and much more efficient application.',
+        desc: 'The client-facing app for the Jackpot Rising platform. The internal tool for: tournaments, game metadata, user moderation, and much more. It includes a roles and permissions system for large scale corporations. The app was developed with Angular 8+, Angular Material UI library, and includes full PWA and service worker support. I developed this to combine separate client and admin tooling in a single efficient application.',
         url: 'https://homebase.jackpotrising.com',
         color: '#dc334a',
         media: {
@@ -174,7 +174,7 @@ let worksData = [
     {
         id: 11,
         name: 'JR + Overwolf',
-        desc: 'Overwolf provides a middleware solution for tracking data in real time within many triple-A PC game titles, including Fortnite, CS:GO, League of Legends, and more. Apps for the Overwolf platform may gathering and utilizing this data, presented via overlays directly in the game (similar to Steam). I was the project lead for the Jackpot Rising application which collected data for use in competitive tournaments. The application was built with web technology (similar to Electron) and could access data from Overwolf via an integrated API. I managed one contractor to assist with the development of this project. This powered select tournaments at the Dreamhack Dallas 2019.',
+        desc: 'Overwolf provides a middleware solution for tracking data in real time within many triple-A PC game titles, including Fortnite, CS:GO, League of Legends, and more. Apps for the Overwolf platform may gathering and utilizing this data, presented via overlays directly in the game (similar to Steam). I was the project lead for the Jackpot Rising application which collected data for use in competitive tournaments. The application was built with web technology (similar to Electron) and could access data from Overwolf via an integrated API. I managed one contractor to assist with the development of this project. This powered select tournaments at Dreamhack Dallas 2019.',
         url: 'https://www.overwolf.com/app/Jackpot_Rising_Inc-Jackpot_Rising',
         color: '#27223e',
         media: {
